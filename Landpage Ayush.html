@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://cdn.pixabay.com/photo/2017/11/29/16/12/berries-2986532_1280.jpg);
+        }
+        
+        #firstpara {
+            font-family: cursive;
+            border-style: ridge;
+            width: 230px;
+            border-color: white;
+            border-radius: 4px;
+            padding: 5px;
+            animation-name: ayush1;
+            animation-duration: 10s;
+            animation-iteration-count: 3;
+            color:red;
+
+
+        }
+        @keyframes ayush1{
+            from{
+                width: 00px;
+            }
+            to{
+                width: 230px;
+            }
+        }
+        .navbar{
+            background-color: none;
+            border-radius: 4px;
+ }
+ .navbar ul{
+    overflow: auto;
+ }
+ .navbar li{
+    float: left;
+    list-style: none;
+    padding: 4px;
+    margin: 20px;
+
+ }
+ .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+ }
+ .navbar li a:hover{
+    color: red;
+    
+    }
+ #secondpara{
+    color: black;
+    font-family: cursive;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid white ;
+    width: 450px;
+    background-color: white;
+
+ }
+ .container{
+    color: white;
+    font-family: cursive;
+    padding: 7px;
+    margin: auto;
+    background-color:none;
+    text-align: center;
+
+ }
+ .navbar input{
+    border-radius: 10px;
+    padding: 4px;
+    margin: 20px;
+    background: none;
+    color:white;
+    font-family: cursive;
+    border-style: groove;
+    float: right;
+ }
+ .primary{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    
+        }
+    
+
+ 
+ .btn{
+    font-size: 15px;
+    font-family: cursive;
+    background-color: white;
+    transform: translate(550px);
+    cursor: pointer;
+    border-radius: 10px;
+    border-color:black;
+    border-style: groove;
+    color: black;
+
+
+ }
+ .btn :hover{
+    color: red;
+ }
+ #thirdpara{
+    color: red;
+    font-family: cursive;
+    text-align: center;
+
+ }
+ #services{
+    margin: 34px;
+    display: flex;
+ }
+ #services .box{
+    padding: 34px;
+    border: 3px solid black;
+    border-radius: 35px;
+    height: 170px;
+    width: 400px;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+    margin: 8px;
+    cursor: pointer;
+    background-color: white;
+ }
+    
+ 
+ 
+ #services .box img{
+    height: 80px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: red;
+ }
+ #forthpara{
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    background-color: white;
+ }
+    </style>
+</head>
+
+<body>
+    <h1 id="firstpara">Snack"O"Pedia</h1>
+    
+    
+    <hr>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Menu</a></li>
+            <div class="search">
+                <label for="search"></label>
+                <input type="search" name="Search" id="mysearch" placeholder="Search this Website">
+            </div>
+        </ul>
+    </nav><br><br><br><br>
+
+    </div>
+    <section id="home">
+        <h1 class="primary">Welcome To Snack"O"Pedia</h1>
+        <p id="thirdpara"><strong>Snack"O"Pedia food Services is a India's Most Loved Food services site Where Customer Experience splendid dining.</strong></p>
+        <button class="btn">Order Now</button>
+        </section>
+<BR>
+        <section id="container">
+            <h1 class="primary center" ><strong> OUR SERVICES</strong></h1>
+            <div id="services">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSh-96N0ja4gri89I6mmzt-xfoUMm3FxxAnA&usqp=CAU">
+                    <h2 class="secondary center">Food Catering</h2>
+                    <p class="cap">We Fabricate your events With passion.</p>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxABG-UHqRQMoyLO6bha70LCSa7iTNKivxsA&usqp=CAU" alt="">
+                    <h2 class="h-secondary center">Dine-In</h2>
+                    <p class="cap">Experience the Delicious dining with us.</p>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqx73PO4nc6q0f-gusWU0f-wE0C6WauyvIxw&usqp=CAU" alt="">
+                    <h2 class="h-secondary center">Food Ordering</h2>
+                    <p class="cap">We providing Fastest instamart Delivery.</p>
+                </div>
+            </div>
+        </section><br><br>
+        
+    <h1 id="secondpara">Login Information</h1>
+    <br><br>
+    <hr>
+    <div class="container">
+    <label for="name"> User Name :</label>
+    <input type="text" placeholder="Enter User Name" name="name" id="myname" >
+    <br><br>
+    <label for="password">password :</label>
+        <input type="password" placeholder="Enter Your password" name="password" id="mypassword">
+        <br><br>
+        <label for="education">Type of Table :</label>
+<select name="education" id="mymode">
+    <option value="Online">2 Seater</option>
+    <option value="Offline">4 Seater</option>
+    <option value="Both">Solo</option>
+</select><br><br>
+<label for="date">Date Of Visiting :</label>
+<input type="date" name="date" id="mydate">
+<br><br><hr>
+        
+        <label for="city">City :</label><br><br>
+        Ahmedabad<input type="checkbox" name="city" >
+        Surat<input type="checkbox" name="city" >
+        Vadodara<input type="checkbox" name="city" >
+        Rajkot<input type="checkbox" name="city" >
+        <br><br>
+<label for="gender">Mode Of Eating :</label><br><br>
+Takeaway<input type="radio" name="gender" id="mygender">
+Dine-In<input type="radio" name="gender" id="mygender">
+Home Delivery<input type="radio" name="gender" id="mygender">
+<br><br>
+<label for="submit">Submit Now :</label>
+<input type="submit" name="submit" id="mysubmit">
+<label for="reset"></label>
+<input type="reset" name="reset" id="myreset">
+        </div>
+    <div class="box" name="box" id="mybox">
+    </div><hr><br>
+    <p id="forthpara"><strong>@2023 Snack"O"Pedia India,Inc.All Rights Reserved</strong></p>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
